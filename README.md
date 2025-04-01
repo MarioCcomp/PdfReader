@@ -1,0 +1,1 @@
+This is a project to help UFRRJ students to count their additional hours. All you have to do is download your certificates on the gov website, an then put them all in a folder, rename all like "pdf" (you can do it just pressing CTRL + A, then F2, and finally writing pdf and pressing ENTER)
