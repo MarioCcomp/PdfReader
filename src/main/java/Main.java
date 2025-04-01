@@ -13,7 +13,7 @@ public class Main {
 		        Pattern patt = Pattern.compile("(\\d+)(\\s+)hora");
 		        int horas = 0;
 		        for(int i = 1; i <= 26; i++) {
-		            File file = new File("C:\\Users\\nuno\\Documents\\certificados\\pdf (" + i + ").pdf"); // put the path of your pdfs here
+		            File file = new File("path\\to\\your\\folder\\pdf (" + i + ").pdf"); // put the path of your pdfs here
 		            try (PDDocument document = Loader.loadPDF(file)) {
 		                PDFTextStripper pdfStripper = new PDFTextStripper();
 		                pdfStripper.setStartPage(1);
